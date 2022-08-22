@@ -219,6 +219,11 @@ a:hover {
   outline: none;
 }
  
+.title:hover{
+  background-color: #ffffff;
+  transition-duration: 1s;
+}
+
 }
 
 footer {

@@ -219,7 +219,8 @@ a:hover {
   outline: none;
 }
  
-.title:hover{
+
+title:hover{
   background-color: #ffffff;
   transition-duration: 1s;
 }

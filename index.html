@@ -7,9 +7,9 @@
     <meta name="robots" content="noindex,nofollow" /> 
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <meta property="og:site_name" content="ANEESH PROFILE">
+    <meta property="og:site_name" content="Jah18.x PROFILE">
     <meta property="og:title" content="PEACE."/>
-    <meta property="og:description" content="Aneesh">
+    <meta property="og:description" content="Jah18.x">
     <meta property="og:image" itemprop="image" content="profile.jpg">
     <meta property="og:type" content="website"/>
     <meta property="og:updated_time" content="1440432930"/>
@@ -20,8 +20,55 @@
 </head>
 
 <body>
+
+  <div class="header">
+ 
+    <script>function display_ct7() {
+var x = new Date()
+var ampm = x.getHours( ) >= 12 ? ' PM' : ' AM';
+hours = x.getHours( ) % 12;
+hours = hours ? hours : 12;
+hours=hours.toString().length==1? 0+hours.toString() : hours;
+
+var minutes=x.getMinutes().toString()
+minutes=minutes.length==1 ? 0+minutes : minutes;
+
+var seconds=x.getSeconds().toString()
+seconds=seconds.length==1 ? 0+seconds : seconds;
+
+var month=(x.getMonth() +1).toString();
+month=month.length==1 ? 0+month : month;
+
+var dt=x.getDate().toString();
+dt=dt.length==1 ? 0+dt : dt;
+
+var x1=month + "/" + dt + "/" + x.getFullYear(); 
+x1 = x1 + " - " +  hours + ":" +  minutes + ":" +  seconds + " " + ampm;
+document.getElementById('ct7').innerHTML = x1;
+display_c7();
+ }
+ function display_c7(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct7()',refresh)
+}
+display_c7()
+</script>
+<p id='ct7'</p>
+</head>
+
+<body onload=display_ct();>
+<span id='ct' ></span>
+</div>
+
+  
+
+
+
+         
+
+
   <div class="musicOn">
-    <audio id="audio" style="display:none;" src="jbee (1).mp3" controls loop></audio>
+    <audio id="audio" style="display:none;" src="jbee.mp3" controls loop></audio>
   </div>
 
     <div class="container">
@@ -29,9 +76,9 @@
         <img id="userPhoto" src="profile.jpg" alt="User Photo">
      
 
-    <h1 class="title">Aneesh</h1>
-    <div class="popup" onclick="myFunction()"> “Create like a god,command like a king, work like a slave.”
-  <span class="popuptext" id="myPopup">Tap on Aneesh to listen music</span>
+    <h1 class="title">Jah18.x</h1>
+    <div class="popup" onclick="myFunction()"> “We're all living in each other's paranoia.”
+  <span class="popuptext" id="myPopup">Tap on Jah18.x to listen music</span>
 </div>
 <script>
 // When the user clicks on div, open the popup
@@ -42,11 +89,10 @@ function myFunction() {
 </script>
 
 
-
         <div id="links">
-            <a class="link" href="https://api.whatsapp.com/send/?phone=%2B917306440822&text=Hi+Aneesh+&type=phone_number&app_absent=0"  rel="noopener">WHATSAPP [CHAT ONLY]</a>
+            <a class="link" href="https://api.whatsapp.com/send/?phone=%2B917306440822&text=Hi+Jah18.x+&type=phone_number&app_absent=0"  rel="noopener">WHATSAPP [CHAT ONLY]</a>
             <a class="link" href="https://opensea.io/"  rel="noopener">OPENSEA [NFT]</a>
-            <a class="link" href="https://www.snapchat.com/add/aneesh_muth2022?share_id=zx28615YFEE&locale=en-US"  rel="noopener">SNAPCHAT </a>
+            <a class="link" href="https://opensea.io/"  rel="noopener">SNAPCHAT </a>
             <a class="link" href="https://github.com/" rel="noopener">GITHUB [TOOLS]</a>
             <a class="link" href="https://telegram.me/" rel="noopener">TELEGRAM [CHAT ONLY]</a>
                     </div>
@@ -76,9 +122,53 @@ function play() { document.getElementById("a").play();
 
 
 
-
 <footer>
-<svg viewBox="0 0 120 28">
+
+<!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "107500928564236");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+</footer>
+
+
+    </div>
+</div>
+
+
+    
+
+</body>
+
+</html>
+
+
+<!-- <svg viewBox="0 0 120 28">
  <defs> 
     <filter id="goo">
       <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
@@ -123,16 +213,4 @@ function play() { document.getElementById("a").play();
     </g>
   </g -->
 
-</svg>
-
-</footer>
-
-
-    </div>
-</div>
-
-  
-
-</body>
-
-</html>
+</svg> 
